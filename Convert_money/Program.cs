@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Convert_money
 {
@@ -16,7 +12,7 @@ namespace Convert_money
 
             double rubToUsd = 70.4, usdToRub = 79.4;
             double rubToEur = 75.4, eurToRub = 84.4;
-            double usdToEur = 1, eurToUsd = 0.94;
+            double usdToEur = 1.05, eurToUsd = 0.94;
 
             double canToSolvency;
             string exchangeOperation;
@@ -26,7 +22,6 @@ namespace Convert_money
             Console.WriteLine($"Покупка рубля - USD: {rubToUsd}, EUR: {rubToEur}");
             Console.WriteLine($"Продажа рубля - USD: {usdToRub}, EUR: {eurToRub}");
             Console.WriteLine($"Покупка/продажа доллара - EUR: {usdToEur} / {eurToUsd}");
-
 
             Console.SetCursorPosition(0, 0);
             Console.WriteLine("Добро пожаловать в наш обменник валют!");
